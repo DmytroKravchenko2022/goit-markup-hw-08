@@ -1,0 +1,113 @@
+/*header*/
+.header {
+    border-bottom: 1px solid #ECECEC;
+    background-color: #FFFFFF;
+}
+
+/*logo*/
+.web-logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-brand);
+}
+
+.studiologo__header {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-right: 93px;
+}
+
+/*navi*/
+.link__nav {
+    position: relative;
+    transition: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-primary);
+}
+
+.link__nav--current::after {
+    position: absolute;
+    top: 46px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196F3;
+    background-color: currentColor;
+    content: '';
+}
+
+.link__nav:hover,
+.link__nav:focus,
+.link__nav--current {
+    color: var(--color-brand);
+}
+
+/*contact*/
+.link__contact {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-secondary)
+}
+
+/*header allignment*/
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__links {
+    display: flex;
+    gap: 50px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.contact {
+    display: flex;
+    gap: 50px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.contact__icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.link__contact:hover,
+.link__contact:focus {
+    color: var(--color-brand);
+}

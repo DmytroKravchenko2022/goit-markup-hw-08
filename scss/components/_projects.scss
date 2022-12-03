@@ -1,0 +1,70 @@
+.project__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.overlay__wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.project__wrapper {
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    padding: 20px 24px;
+}
+
+.project__name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--txtcolor-primary);
+}
+
+.project__type {
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
+    margin-top: 4px;
+}
+
+.boxes {
+    transition-property: box-shadow;
+    position: relative;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.boxes:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.upsliding__window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(33, 150, 243, 0.9);
+}
+
+.text__inwindow {
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.boxes:hover .upsliding__window {
+    transform: translateY(0);
+}

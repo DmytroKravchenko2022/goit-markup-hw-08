@@ -1,0 +1,41 @@
+.benefit {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--txtcolor-primary);
+    margin-top: 30px;
+}
+
+.benefits__description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.listof__benefits {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.listof__benefits .list {
+    width: 270px;
+}
+
+.design__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.inbox__icon {
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,147 @@
+.footer {
+    background-color: var(--color-primary);
+    padding: 60px 0;
+}
+
+.studiologo__footer {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer__adress {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.adress__line {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.contact__footer-list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.link-contact__footer {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-secondary);
+}
+
+.join {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.social-list__footer {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.social-link__footer {
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon__footer {
+    fill: currentColor;
+}
+
+.social-link__footer:hover,
+.social-link__footer:focus {
+    background-color: var(--color-brand);
+}
+
+.logo__address-social {
+    display: flex;
+    align-items: baseline;
+}
+
+.social {
+    margin-left: 70px;
+}
+
+.sign__up {
+    margin-left: 93px;
+}
+
+.sign__up-form {
+    position: relative;
+    display: flex;
+    gap: 12px;
+}
+
+.sign__up-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.email__input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    font-size: 16px;
+    line-height: 1.25px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.btn__sign-up {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 50px;
+    width: 200px;
+    background-color: var(--color-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding: 10px 28px;
+}
+
+.send__icon {
+    fill: #F5F4FA;
+}
